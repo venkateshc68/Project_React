@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: chartreuse;
+  margin: 100px auto;
+  width: 90%;
+  box-shadow: 1px 1px 4px 1px lightgrey;
+}
+.container form{
+  width: 100%;
+  padding: 10px;
+
+}
+.container label{
+  display: block;
+  letter-spacing: 0.5rem;
+  font-style: italic;
+  margin-bottom: 3px;
+
+}
+.container input,
+.container textarea{
+width: 100%;
+margin: 0 auto;
+padding: 10px;
+border: none;
+box-shadow: 1px 1px 4px 1px  blue;
+}
+.container input :focus,
+.container textarea :focus{
+  box-shadow: 1px 1px 4px 1px green;
+}
+.singleItem{
+  margin: 10px 0;
+
+}
+.btn{
+  width: 100%;
+  text-align: center;
+}
+.btn button{
+  width: 150px;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+  padding: 5px 10px;
+  border: 1px ;
+  outline: none;
+
+  position: relative;
+  margin-top: 5px;
+}
+.btn button :hover{
+  border: 1px orange;
+  background-color: orange;
+  cursor: pointer;
+}
+.msg{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  letter-spacing: 0.2rem;
+  font-style:italic;
+  width: 340px;
+  padding:3px ;
+  font-size: 14px;
+  font-weight: bold;
+  color:blueviolet;
+  background-color:white;
+  border-radius: 5px;
+  display: none;
+
+}
+.msgAppear{
+  display: block;
+}
+@media screen and (min-width:664px){
+  .container{
+      width: 60%;
+  }
+
+}
+
